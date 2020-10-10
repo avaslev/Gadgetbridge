@@ -567,5 +567,8 @@
         <activity
             android:name=".devices.qhybrid.ImageEditActivity"
             android:exported="true" />
+        <activity
+            android:name=".devices.um25.Activity.DataActivity"
+            android:exported="true" />
     </application>
 </manifest>
