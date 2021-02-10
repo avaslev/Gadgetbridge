@@ -70,6 +70,8 @@ public final class MiBandConst {
     public static final String MI_AMAZFIT = "Amazfit";
     public static final String MI_PRO = "2";
 
+    public static final String NOT_SUPPORT_KETTLE = "MiKettle";
+
     public static final Version MI2_FW_VERSION_MIN_TEXT_NOTIFICATIONS = new Version("1.0.1.28");
     public static final Version MI2_FW_VERSION_INTERMEDIATE_UPGRADE_53 = new Version("1.0.0.53");
 

@@ -81,8 +81,12 @@ public class MiBandCoordinator extends AbstractDeviceCoordinator {
         // and a heuristic
         try {
             BluetoothDevice device = candidate.getDevice();
+            String name = device.getName();
+            if (isNotSupportGadget(name)) {
+                return DeviceType.UNKNOWN;
+            }
+
             if (isHealthWearable(device)) {
-                String name = device.getName();
                 if (name != null && name.toUpperCase().startsWith(MiBandConst.MI_GENERAL_NAME_PREFIX.toUpperCase())) {
                     return DeviceType.MIBAND;
                 }
@@ -274,5 +278,9 @@ public class MiBandCoordinator extends AbstractDeviceCoordinator {
 
     private boolean isMiPro(String hardwareVersion) {
         return MiBandConst.MI_PRO.equals(hardwareVersion);
+    }
+
+    private boolean isNotSupportGadget(String deviceName) {
+        return MiBandConst.NOT_SUPPORT_KETTLE.equals(deviceName);
     }
 }
