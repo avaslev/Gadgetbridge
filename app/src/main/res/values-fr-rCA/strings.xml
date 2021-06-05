@@ -908,4 +908,5 @@
 \nÀ VOS RISQUES ET PÉRILS!</string>
     <string name="controlcenter_set_alias">Définir un alias</string>
     <string name="find_lost_device_message">Rechercher %1$s\?</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

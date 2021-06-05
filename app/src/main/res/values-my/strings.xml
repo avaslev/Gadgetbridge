@@ -44,4 +44,5 @@
     <string name="sonyswr12_settings_title">"Sony SWR12 ချိန်ညှိချက်များ "</string>
     <string name="sonyswr12_settings_low_vibration">တုန်ခါမှုနိမ့်သည်</string>
     <string name="sonyswr12_settings_stamina">ပါဝါချွေတာခြင်းမုဒ်ကိုဖွင့်ပါ</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

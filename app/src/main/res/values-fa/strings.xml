@@ -132,4 +132,5 @@
     <string name="sonyswr12_settings_low_vibration">لرزش کم فعال است</string>
     <string name="sonyswr12_settings_stamina">حالت صرفه جویی در مصرف برق روشن است</string>
     <string name="sonyswr12_settings_alarm_interval">فاصله زنگ هوشمند در چند دقیقه</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

@@ -1142,4 +1142,5 @@
 \nNota: Non è necessario installare i file .res e .gps se questi sono gli stessi di quelli installati in precedenza.
 \n
 \nPROCEDI A TUO RISCHIO!</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

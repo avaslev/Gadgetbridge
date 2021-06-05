@@ -963,4 +963,5 @@
     <string name="sonyswr12_settings_low_vibration_summary">Schakel lage trillingsintensiteit op de band in</string>
     <string name="sonyswr12_settings_stamina_summary">De energiebesparende modus schakelt de periodieke automatische hartslagmeting uit, waardoor de werktijd toeneemt</string>
     <string name="sonyswr12_settings_alarm_interval_summary">Slimme alarminterval is het interval vóór het geïnstalleerde alarm. In dit interval probeert het apparaat de lichtste slaapfase te detecteren om de gebruiker wakker te maken</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

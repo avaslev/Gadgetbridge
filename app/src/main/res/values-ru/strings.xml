@@ -1160,4 +1160,5 @@
     <string name="activity_DB_ShowContentButton">Показать содержимое каталога экспорта/импорта</string>
     <string name="activity_data_management_directory_content_title">Экспорт/импорт содержимого каталога</string>
     <string name="dbmanagementactivity_error_cleaning_export_directory">Ошибка при удалении файлов из каталога экспорта %1$s</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

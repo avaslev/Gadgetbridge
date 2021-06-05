@@ -315,4 +315,5 @@
     <string name="sonyswr12_settings_low_vibration_summary">Įjungti mažą juostos vibracijos intensyvumą</string>
     <string name="sonyswr12_settings_stamina_summary">Energijos taupymo režimas išjungia periodinį automatinį širdies ritmo matavimą ir taip pailgina darbo laiką</string>
     <string name="sonyswr12_settings_alarm_interval_summary">Išmaniojo aliarmo intervalas yra intervalas prieš įdiegtą signalizaciją. Šiuo intervalu prietaisas bando nustatyti lengviausią miego fazę, kad pažadintų vartotoją</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

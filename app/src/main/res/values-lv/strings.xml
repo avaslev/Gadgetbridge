@@ -19,4 +19,5 @@
     <string name="sonyswr12_settings_low_vibration">Iespējota zema vibrācija</string>
     <string name="sonyswr12_settings_stamina">Ieslēgts enerģijas taupīšanas režīms</string>
     <string name="sonyswr12_settings_alarm_interval">Viedā trauksmes intervāls minūtēs</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

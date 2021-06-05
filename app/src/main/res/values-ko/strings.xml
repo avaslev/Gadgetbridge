@@ -616,4 +616,5 @@
     <string name="sonyswr12_settings_stamina_summary">절전 모드는주기적인 심박수 자동 측정을 해제하여 작업 시간을 늘립니다.</string>
     <string name="sonyswr12_settings_alarm_interval">분 단위의 스마트 알람 간격</string>
     <string name="sonyswr12_settings_alarm_interval_summary">스마트 알람 간격은 설치된 알람 이전의 간격입니다. 이 간격에서 장치는 사용자를 깨우기 위해 가장 가벼운 수면 단계를 감지하려고합니다.</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

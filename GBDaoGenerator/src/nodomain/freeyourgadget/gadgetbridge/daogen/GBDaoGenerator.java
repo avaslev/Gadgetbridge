@@ -43,7 +43,7 @@ public class GBDaoGenerator {
 
 
     public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(33, MAIN_PACKAGE + ".entities");
+        Schema schema = new Schema(34, MAIN_PACKAGE + ".entities");
 
         Entity userAttributes = addUserAttributes(schema);
         Entity user = addUserInfo(schema, userAttributes);
@@ -80,6 +80,7 @@ public class GBDaoGenerator {
         addSonySWR12Sample(schema, user, device);
         addBangleJSActivitySample(schema, user, device);
         addCasioGBX100Sample(schema, user, device);
+        addSn60PlusActivitySample(schema, user, device);
 
         addHybridHRActivitySample(schema, user, device);
         addCalendarSyncState(schema, device);
@@ -613,5 +614,17 @@ public class GBDaoGenerator {
         batteryLevel.addToOne(device, deviceId);
         batteryLevel.addIntProperty("level").notNull();
         return batteryLevel;
+    }
+
+    private static Entity addSn60PlusActivitySample(Schema schema, Entity user, Entity device) {
+        Entity activitySample = addEntity(schema, "Sn60PlusActivitySample");
+        activitySample.implementsSerializable();
+        addCommonActivitySampleProperties("AbstractActivitySample", activitySample, user, device);
+        activitySample.addIntProperty(SAMPLE_STEPS).notNull().codeBeforeGetterAndSetter(OVERRIDE);
+        activitySample.addIntProperty(SAMPLE_RAW_KIND).notNull().codeBeforeGetterAndSetter(OVERRIDE);
+        addHeartRateProperties(activitySample);
+        activitySample.addIntProperty("caloriesBurnt");
+        activitySample.addIntProperty("distanceMeters");
+        return activitySample;
     }
 }

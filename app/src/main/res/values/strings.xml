@@ -1128,4 +1128,5 @@
     <string name="prefs_operating_sounds">Operating Sounds</string>
     <string name="prefs_fake_ring_duration">Fake continuous ringing</string>
     <string name="prefs_autoremove_message">Automatically remove SMS notifications</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

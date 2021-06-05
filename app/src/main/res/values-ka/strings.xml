@@ -37,4 +37,5 @@
     <string name="sonyswr12_settings_alarm_interval_summary">ჭკვიანი განგაშის ინტერვალი არის დაინსტალირებული მაღვიძარის ინტერვალი. ამ ინტერვალში მოწყობილობა ცდილობს გამოავლინოს ძილის ყველაზე მსუბუქი ფაზა, რომ გაიღვიძოს მომხმარებელი</string>
     <string name="sonyswr12_settings_low_vibration">ჩართულია დაბალი ვიბრაცია</string>
     <string name="sonyswr12_settings_stamina">ენერგიის დაზოგვის რეჟიმი ჩართულია</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

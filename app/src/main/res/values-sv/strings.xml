@@ -55,4 +55,5 @@
     <string name="sonyswr12_settings_low_vibration_summary">Aktivera låg vibrationsintensitet på armbandet</string>
     <string name="sonyswr12_settings_stamina_summary">Energisparläget stänger av periodisk automatisk mätning av hjärtfrekvensen, vilket ökar arbetstiden</string>
     <string name="sonyswr12_settings_alarm_interval_summary">Smart alarmintervall är intervall före installerat larm. I detta intervall försöker enheten att upptäcka den lättaste fasen av sömn för att vakna användare</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

@@ -1074,4 +1074,5 @@
     <string name="charts_activity_list">Llista d\'activitats</string>
     <string name="chart_no_active_data">No s\'han detectat activitats.</string>
     <string name="pref_theme_system">Sistema</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

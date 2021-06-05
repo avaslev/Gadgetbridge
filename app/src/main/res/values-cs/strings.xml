@@ -1160,4 +1160,5 @@
     <string name="activity_DB_clean_export_directory_warning_title">Chcete odstranit soubory z Export/Import složky\?</string>
     <string name="activity_db_management_clean_export_directory_label">Odstranění souborů ze složky Export/Import</string>
     <string name="dbmanagementactivity_error_cleaning_export_directory">Došlo k chybě při mazání souborů ze složky exportu %1$s</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>

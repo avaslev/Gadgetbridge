@@ -762,4 +762,5 @@
     <string name="sonyswr12_settings_low_vibration_summary">バンドで低強度の振動を有効にする</string>
     <string name="sonyswr12_settings_stamina_summary">省電力モードでは、心拍数の定期的な自動測定がオフになり、作業時間が長くなります</string>
     <string name="sonyswr12_settings_alarm_interval_summary">スマートアラーム間隔は、インストールされたアラームの前の間隔です。 この間隔では、デバイスはユーザーを目覚めさせるために睡眠の最も軽い段階を検出しようとしています</string>
+    <string name="devicetype_sn60plus">SN60-Plus</string>
 </resources>
